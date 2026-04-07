@@ -59,7 +59,7 @@ app.post("/product", async (req, res) => {
     }
 });
 
-// UPDATE Product (FIXED ✅)
+// UPDATE Product 
 app.put("/product/:id", async (req, res) => {
     try {
         const { id } = req.params;
